@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Input Attributes</title>
+    <style>
+        body{
+            font-family: times new roman, sans-serif;
+        }
+        div{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 400px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Default name on usename</h1>
+<div>
+    <form>
+        <label> Enter username</label>
+        <input type="text" value="Venkat" autofocus="">
+    </form>
+</div>
+<h1>Read only</h1>
+<div>
+    <form>
+        <label> Enter username</label>
+        <input type="text" value="Venkat" readonly>
+    </form>
+</div>
+<h2>Disabled</h2>
+<div>
+    <form>
+        <label> Enter username</label>
+        <input type="text" value="Venkat" disabled>
+    </form>
+</div>
+<h2>Size</h2>
+<div>
+    <form>
+        <label> Enter username</label>
+        <input type="text" size="30">
+    </form>
+</div>
+<h2>Rows ,cols</h2>
+<div>
+ <form>
+    <label>your messege</label>
+    <textarea rows="10" cols="30"></textarea>
+</form>
+</div>
+<h3>HTML 5 Form Attributes</h3>
+<h4>Required is for mandatory fields</h4>
+<div>
+    <form>
+        <label>Username *</label>
+        <input type="text" required>
+        <input type="submit" value="submit">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Enter an Email</label>
+        <input type="email" required>
+        <input type="submit" value="submit">
+    </form>
+</div>
+<div>
+    <form>
+        <label>Username</label>
+        <input type="text" autofocus>
+        <input type="submit" value="submit">
+    </form>
+</div><h2>pattern</h2>
+<div>
+    <form>
+        <label>Twitter username</label>
+        <input type="text" pattern="^[A-Za-z0-9_]{1,15}$" required="">
+        <input type="submit" value="submit">
+    </form>
+</div>
+<h2>place holder</h2>
+<div>
+    <form>
+        <input type="text" placeholder="Enter  your Username">
+        <input type="submit" value="submit">
+    </form>
+</div>
+<div>
+    <form>
+        <input type="password" placeholder="Enter  your password">
+        <input type="submit"  value="submit">
+    </form>
+</div>
+<br><br><br>
+</body>
+</html>

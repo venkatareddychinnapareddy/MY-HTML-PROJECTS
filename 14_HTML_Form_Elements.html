@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            font-family: times new roman, sans-serif;
+        }
+        div{
+            background-color: orange;
+            padding: 10px;
+            margin: 5px;
+            width: 400px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple Login Form
+        Login Form with Table
+        Select Box
+        Text Area
+        DataList
+    -->
+<div>
+    <form>
+        <label for="Username">Username</label>
+        <input type="Text" name="Username">
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="password">
+        <br>
+        <input type="submit" name="submit">
+    </form>
+</div>
+<h2>Table form</h2>
+<div>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>username</label>
+                    </td>
+                    <td>
+                        <input type="Text" name="username">
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>password</label>
+                    </td>
+                    <td><input type="password" name="password">
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div>
+    <form>
+        <label>select a language</label>
+        <select>
+            <option>HTML</option>
+             <option>CSS</option>
+              <option>JAVA</option>
+               <option>TYPESCRIPT</option>
+                <option>JQUERY</option>
+                 <option>CAD</option>
+                  <option>CAM</option>
+                   <option>PYTHON</option>
+                    <option>C LANGUAGE</option>
+                     <option>DIGITAL</option>
+        </select>
+    </form>
+</div>
+<div>
+    <form>
+        <label>Enter your text here</label>
+    <textarea rows="10" cols="40"></textarea>
+     </form>
+     <input type="submit" name="submit">
+</div>
+<br>
+<div>
+    <form>
+        <label>Select a college</label>
+        <input list="colleges">
+        <datalist id="colleges">
+            <option>vignan</option>
+            <option>lara</option>
+            <option>vvit</option>
+            <option>rvr</option>
+            <option>kits</option>
+            <option>malla</option>
+             <option>ou</option>
+              <option>au</option>
+               <option>siddu</option>
+                  <option>moddu
+                <option>golu
+        </datalist>            
+        <input type="submit" name="submit">
+    </form>
+</div>
+</body>
+</html>

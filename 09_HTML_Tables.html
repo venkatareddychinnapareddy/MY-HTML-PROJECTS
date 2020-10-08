@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML MY TABLES</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table,th,td {
+            border: 3px solid blue;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+        #custom-table thead{
+            background-color: orange;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        simple table
+        table row span
+        table col span
+        custom table with css
+    -->
+    <h1>simple table</h1>
+<table width="100%">
+        <tr>
+            <th>S.NO</th>
+            <Th>NAME</Th>
+            <th>Address</th>
+        </tr>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>VENKY</td>
+            <td>GUNTUR</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>yanvitha</td>
+            <td>chilakaluripeta</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>bhanu kumar </td>
+            <td>mclrla</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>musharaf</td>
+            <td>kurnool</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>hemanth kumar</td>
+            <td>texas</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>george reddy</td>
+            <td>germany</td>
+        </tr>
+    </tbody>
+</table>
+ <h1>table with col span</h1>
+ <table width="100%">
+    <thead>
+        <tr>
+            <th>S.NO</th>
+            <Th colspan="2">NAME & ADDRESS</Th>
+             <th>NUMBER</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>VENKY</td>
+            <td>GUNTUR</td>
+            <td>8246866865</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>yanvitha</td>
+            <td>chilakaluripeta</td>
+            <td>45757545245557</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>bhanu kumar </td>
+            <td>mclrla</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>musharaf</td>
+            <td>kurnool</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>hemanth kumar</td>
+            <td>texas</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td> george reddy</td>
+            <td>germany</td>
+        </tr>
+    </tbody>
+</table>
+<h1>Table with row span</h1>
+<table width="100%">
+    <thead>
+        <tr>
+            <th>S.NO</th>
+            <Th>NAME</Th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">1</td>
+            <td>VENKY</td>
+            <td>GUNTUR</td>
+        </tr>
+        <tr>
+            <td>yanvitha</td>
+            <td>chilakaluripeta</td>
+        </tr>
+        <tr>
+            <td>bhanu kumar </td>
+            <td>mclrla</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>musharaf</td>
+            <td>kurnool</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>hemanth kumar</td>
+            <td>texas</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td> george reddy</td>
+            <td>germany</td>
+        </tr>
+    </tbody>
+</table>
+<h1>custom styles with the table</h1>
+<table width="100%" id="custom-table">
+    <thead>
+        <tr>
+            <th>S.NO</th>
+            <Th>NAME</Th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>VENKY</td>
+            <td>GUNTUR</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>yanvitha</td>
+            <td>chilakaluripeta</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>bhanu kumar </td>
+            <td>mclrla</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>musharaf</td>
+            <td>kurnool</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>hemanth kumar</td>
+            <td>texas</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td> george reddy</td>
+            <td>germany</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
